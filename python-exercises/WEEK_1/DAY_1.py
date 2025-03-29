@@ -1,10 +1,20 @@
+# To write a short comment, use the # symbol. Everything after # will be ignored by Python.
+# For longer explanations, you can use triple quotes (''' or """). This is often used for documentation or large notes.
+'''
+This is a multi-line comment.
+You can write several lines of text here.
+Python will ignore all of this.
+'''
+
 # Write a program that prints the message 'Hello, World' on the screen
 
 print("Hello, World")
 
-""" The print() function in Python tells the computer to display something on the screen. 
-    It can show text, numbers, variables, or even the result of operations. """
-""" print() is like telling the computer: “Hey! Show this on the screen!” """ 
+""" 
+The print() function in Python tells the computer to display something on the screen. 
+It can show text, numbers, variables, or even the result of operations.
+print() is like telling the computer: “Hey! Show this on the screen!” 
+""" 
 
 # Programs use variables to store information
 
@@ -25,10 +35,12 @@ variable_four = True            # Boolean
 # Print a combined message using an f-string
 print(f"These are the basic value types: {variable_one}, {variable_two}, {variable_three}, {variable_four}")
 
-""" What is an f-string in Python? """
-""" An f-string (short for formatted string) is a special 
-    type of string in Python that lets you insert variables 
-    directly into a string using curly braces {}. """
+""" 
+What is an f-string in Python? 
+An f-string (short for formatted string) is a special 
+type of string in Python that lets you insert variables 
+directly into a string using curly braces {}. 
+"""
 
 name = "Daniel"
 print(f"Hello, {name}!")  # Output: Hello, Daniel!
