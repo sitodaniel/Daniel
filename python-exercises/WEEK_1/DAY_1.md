@@ -9,9 +9,10 @@
     '''
 
 # Write a program that prints the message 'Hello, World' on the screen
-    '''python
-    print("Hello, World")
 
+```python
+print("Hello, World")
+```
 """ 
 The print() function in Python tells the computer to display something on the screen. 
 It can show text, numbers, variables, or even the result of operations.
