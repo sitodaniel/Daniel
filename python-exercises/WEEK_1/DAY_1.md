@@ -80,9 +80,11 @@ print(f"addition: {addition}")
 print(f"subtraction: {subtraction}")
 print(f"multiplication: {multiplication}")
 print(f"division: {division}")
+```
     
-# String Concatenation (joining two strings)
-# Define a name and a greeting
+String Concatenation (joining two strings)
+Define a name and a greeting
+```python
 first_name = "Daniel"
 greeting = "Hello, "
     
