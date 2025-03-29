@@ -2,6 +2,10 @@
 
 print("Hello, World")
 
+""" The print() function in Python tells the computer to display something on the screen. 
+    It can show text, numbers, variables, or even the result of operations. """
+""" print() is like telling the computer: “Hey! Show this on the screen!” """ 
+
 # Programs use variables to store information
 
 # 1. Create a variable in Python
