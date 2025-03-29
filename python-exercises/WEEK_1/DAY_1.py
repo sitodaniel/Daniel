@@ -33,3 +33,30 @@ print(f"These are the basic value types: {variable_one}, {variable_two}, {variab
 name = "Daniel"
 print(f"Hello, {name}!")  # Output: Hello, Daniel!
 
+# Do operations like addition, subtraction, multiplication, and division. Also, concatenate two strings to form a greeting.
+
+    # Define two numbers
+    number_one = 10
+    number_two = 5
+    
+    # Perform basic math operations
+    addition = number_one + number_two          # 15
+    subtraction = number_one - number_two       # 5
+    multiplication = number_one * number_two    # 50
+    division = number_one / number_two           # 2.0
+    
+    print(f"addition: {addition}")
+    print(f"subtraction: {subtraction}")
+    print(f"multiplication: {multiplication}")
+    print(f"division: {division}")
+    
+    # String Concatenation (joining two strings)
+    # Define a name and a greeting
+    first_name = "Daniel"
+    greeting = "Hello, "
+    
+    # Combine both strings using +
+    full_greeting = greeting + first_name
+    
+    # Print the full greeting
+    print(full_greeting)  # Output: Hello, Daniel
