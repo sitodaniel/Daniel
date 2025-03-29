@@ -1,5 +1,5 @@
-# To write a short comment, use the # symbol. Everything after # will be ignored by Python.
-# For longer explanations, you can use triple quotes (''' or """). This is often used for documentation or large notes.
+To write a short comment, use the # symbol. Everything after # will be ignored by Python.
+For longer explanations, you can use triple quotes (''' or """). This is often used for documentation or large notes.
    
     ```python
     '''
