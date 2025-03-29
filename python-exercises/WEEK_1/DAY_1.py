@@ -15,7 +15,7 @@ name_user = "DanielUser"
 
 variable_one = 30               # Integer
 variable_two = 17.5             # Float
-variable_three = "Daniel"       # String
+variable_three = "Daniel"       # String The string value must be enclosed in quotation marks ("")
 variable_four = True            # Boolean
 
 # Print a combined message using an f-string
