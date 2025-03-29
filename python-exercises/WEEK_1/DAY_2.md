@@ -1,4 +1,5 @@
-here is a python code:
+--- Python Section ---
+print("Hola desde Python")
 
-''' python
-print("hello word")
+--- HTML Section ---
+<h1>Hola desde HTML</h1>
