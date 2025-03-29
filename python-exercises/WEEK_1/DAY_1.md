@@ -38,8 +38,8 @@ name = "Daniel"
 name_user = "DanielUser"
 ```
 
-# Variables can store different types of values like integer, float, string, and boolean.
-# 3. Create variables of each basic type and print a message combining them
+Variables can store different types of values like integer, float, string, and boolean.
+3. Create variables of each basic type and print a message combining them
 
 ```python
 variable_one = 30               # Integer
@@ -63,7 +63,7 @@ name = "Daniel"
 print(f"Hello, {name}!")  # Output: Hello, Daniel!
 ```
 
-# Do operations like addition, subtraction, multiplication, and division. Also, concatenate two strings to form a greeting.
+Do operations like addition, subtraction, multiplication, and division. Also, concatenate two strings to form a greeting.
 
 ```python
 # Define two numbers
