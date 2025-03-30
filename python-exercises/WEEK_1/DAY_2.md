@@ -11,60 +11,68 @@ If you see something wrong, feel free to help me out (thank you in advance 😄)
 ## 🐍 Python Example
 
 ## If / elif / else
-exercise 1
+**exercise 1**
+
 ### mayor_de_dos.py
-haz un programa que pida dos numero y diga cual es el mayor
+Write a program that asks for two numbers and prints which one is greater.
 
 ```python
-numero_uno = int(input("Ingresa el primer numero: "))
-numero_dos = int(input("ingresa el segundo numero: "))
+numero_uno = int(input("Enter the first number: "))
+numero_dos = int(input("Enter the second number: "))
 
 if numero_uno > numero_dos:
-    print(f"el numero mayor es: {numero_uno}")
+    print(f"The greater number is: {numero_uno}")
 elif numero_dos > numero_uno:
-    print(f"el numero mayor es: {numero_dos}")
+    print(f"The greater number is: {numero_dos}")
 else:
-    print("ambos numeros son iguales")
+    print("Both numbers are equal")
 ```
-## explicacion del ejercicio 
-input() es una funcion de python que le pide al usuario que escriba algo por el teclado
-funcionamiento paso a paso de la funcion input:
-input() siempre guarda lo que escribe el usuario en cadena de texto o strings, dentro de los parentesis va entre comillas por ejemplo
+##  Explanation of the exercise 
+input() is a Python function that asks the user to type something using the keyboard.
+
+How it works step by step:
+input() always stores what the user types as a string (str).
+Inside the parentheses you can add a message in quotes to prompt the user.
+
 ```python
-dato = input("¿como te llamas?: ") # recuerda que despues de input va parentesis y el texto entre comillas
+name = input("What's your name?: ")  # Text prompt goes inside quotes
 ```
-aunque escribas "123" saldra de forma de cadena de texto para cambiar eso usas int o float
+Even if you type 123, it’s still stored as a string like "123".
+To work with numbers, you must convert it:
+
 ```python
-numero = int(input("Escribe un número: "))
-numero = float(input("Escribe un número: "))
+number = int(input("Enter a number: "))   # For integers
+number = float(input("Enter a number: ")) # For decimal numbers
 ```
 ### if / elif / else
-if significa una condicion , se tiene que cumplir la funcion es como decir al programa que si se cumple una cosa haz esto...
-elif siginifica lo mismo que if pero se usa cuando no se sumple la funcion if para a la otra funcion que seria elif
-else es la misma condicion pero se usa como respaldo si no se cumple las funciones if y elif 
+if means "if this condition is true, do this..."
+elif is short for “else if”, and it runs if the first condition was false and this one is true.
+else is the final fallback — it runs only if none of the previous conditions were met.
+
 ```python
-edad = 10
-if edad >= 18:
-    print("Eres mayor de edad")
-elif edad >= 13:
-    print("Eres adolescente")
+age = 10
+
+if age >= 18:
+    print("You're an adult")
+elif age >= 13:
+    print("You're a teenager")
 else:
-    print("Eres un niño")
+    print("You're a child")
 ```
 
-### Operadores de comparación en Python
+### Comparison Operators in Python
 
-Los operadores de comparación se utilizan para comparar valores y devuelven un resultado booleano: `True` o `False`.  
-Son esenciales para tomar decisiones con estructuras como `if`, `elif` y `else`.
+Comparison operators are used to compare values and return a Boolean result: `True` or `False`. 
+They are essential when using `if`, `elif` y `else`.
 
-| Operador | Significado           | Ejemplo   | Resultado |
+| Operator | Meaning           | Example   | Result |
 |----------|------------------------|-----------|-----------|
-| `==`     | Igual a                | `5 == 5`  | `True`    |
-| `!=`     | Distinto de            | `5 != 3`  | `True`    |
-| `>`      | Mayor que              | `7 > 3`   | `True`    |
-| `<`      | Menor que              | `2 < 1`   | `False`   |
-| `>=`     | Mayor o igual que      | `5 >= 5`  | `True`    |
-| `<=`     | Menor o igual que      | `4 <= 3`  | `False`   |
+| `==`     | Equal to                | `5 == 5`  | `True`    |
+| `!=`     | Not equal to            | `5 != 3`  | `True`    |
+| `>`      | Greater than              | `7 > 3`   | `True`    |
+| `<`      | Less than              | `2 < 1`   | `False`   |
+| `>=`     | Greater or equal to      | `5 >= 5`  | `True`    |
+| `<=`     | Less or equal to     | `4 <= 3`  | `False`   |
 
 ## ¿Qué es un bloque de código?
 
