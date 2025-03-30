@@ -127,4 +127,11 @@ Without the colon, Python will throw a syntax error.
 ```python
 if age >= 18:
     print("You're an adult")
+```
 
+❌ Incorrect (missing colon):
+```python
+if age >= 18
+    print("You're an adult")  # This will cause a SyntaxError
+```
+So remember: condition + colon → then indentation = happy Python 
