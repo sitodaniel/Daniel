@@ -20,7 +20,7 @@ elif numero_dos > numero_uno:
 else:
   print("ambos numeros son iguales")
 ```
-explicacion del ejercicio 
+###explicacion del ejercicio 
 input() es una funcion de python que le pide al usuario que escriba algo por el teclado
 funcionamiento paso a paso de la funcion input:
 input() siempre guarda lo que escribe el usuario en cadena de texto o strings, dentro de los parentesis va entre comillas por ejemplo
