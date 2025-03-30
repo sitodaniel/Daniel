@@ -116,3 +116,15 @@ if True:
     print("Line 2 of the same block")
 print("This is outside the block")
 ```
+### 🔸 Don't forget the colon `:` after the condition
+
+In Python, every `if`, `elif`, or `else` line **must end with a colon (`:`)**.  
+This tells Python: “Hey, a code block is coming!”
+
+Without the colon, Python will throw a syntax error.
+
+✅ Correct:
+```python
+if age >= 18:
+    print("You're an adult")
+
