@@ -1,6 +1,11 @@
 # 💻 Daniel's Code Notebook
 
-Welcome to my practice repo!
+Welcome to my personal practice repo!
+
+Here I document the Python exercises I'm working on as I learn to code.  
+Everything you see here is created from scratch, without AI assistance or external help — just me learning, making mistakes, and improving every day.  
+If you see something wrong, feel free to help me out (thank you in advance 😄).
+---
 
 ## 🐍 Python Example
 
