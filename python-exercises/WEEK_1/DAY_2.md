@@ -6,7 +6,7 @@ Welcome to my practice repo!
 
 ## If / elif / else
 exercise 1
-mayor_de_dos.py
+### mayor_de_dos.py
 haz un programa que pida dos numero y diga cual es el mayor
 
 ```python
@@ -31,3 +31,5 @@ aunque escribas "123" saldra de forma de cadena de texto para cambiar eso usas i
 ```python
 numero = int(input("Escribe un número: "))
 numero = float(input("Escribe un número: "))
+```
+
