@@ -1,4 +1,4 @@
-# Ejercicio 2 `positive_negative_zero.py`
+# Exercise 2 `positive_negative_zero.py`
 ---
 Write a program that asks the user for a number and prints whether it is positive, negative, or zero.
 
