@@ -74,45 +74,45 @@ They are essential when using `if`, `elif` y `else`.
 | `>=`     | Greater or equal to    | `5 >= 5`  | `True`    |
 | `<=`     | Less or equal to       | `4 <= 3`  | `False`   |
 
-## ¿Qué es un bloque de código?
+## What is a block of code?
 
-Un **bloque de código** es un conjunto de instrucciones que se agrupan y se ejecutan juntas bajo una misma condición o estructura.
+A **code block** is a group of instructions that are executed together under a specific structure.
 
-Por ejemplo, el contenido dentro de un `if`, un `while`, un `for`, una función (`def`) o una clase (`class`) se considera un **bloque**.
+For example, everything inside an `if`, `while`, `for`, `def`, or `class` is a block.
 
 ```python
 if True:
-    print("Esto forma parte del bloque")  # ← línea dentro del bloque
-print("Esto ya no pertenece al bloque")   # ← fuera del bloque
+    print("This line is part of the block")
+print("This line is outside the block")
 ```
 
-## ¿Qué es la identación?
-La identación es el espacio en blanco que se deja al inicio de una línea para indicar que esa línea forma parte de un bloque.
+## What is indentation?
+**Indentation** is the white space at the beginning of a line that tells Python the line is part of a block.
 
-En Python, la identación no es opcional: si te equivocas en ella, el código no funciona.
-Esto hace que tu código sea más ordenado y fácil de leer.
+In Python, indentation is not optional — if it’s wrong, your code won’t run.
+This rule makes Python code more readable and clean.
 
-## ¿Cuántos espacios debo usar?
-Por convención (PEP 8), se recomienda usar 4 espacios por nivel de indentación
+## How many spaces should I use?
+According to the PEP 8 style guide, use 4 spaces per level of indentation.
 
 ```python
 if True:
-    print("Este código está indentado correctamente")
+    print("This code is indented correctly")
+```
+⚠️ **Never mix tabs and spaces** — Python will get confused and throw an error even if it "looks" aligned to you.
+## Example of incorrect indentation:
+
+```python
+if True:
+  print("This line has only 2 spaces")
+    print("This one has 4")  # Python will complain here
 ```
 
-## Ejemplo de una identacion incorrecta
+## Correct indentation example:
 
 ```python
 if True:
-  print("Esto tiene solo 2 espacios")
-    print("Esto tiene 4")  # Python se enfada aquí
-```
-
-## Ejemplo correcto
-
-```python
-if True:
-    print("Línea 1 del bloque")
-    print("Línea 2 del mismo bloque")
-print("Fuera del bloque")
+    print("Line 1 of the block")
+    print("Line 2 of the same block")
+print("This is outside the block")
 ```
