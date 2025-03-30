@@ -32,4 +32,30 @@ aunque escribas "123" saldra de forma de cadena de texto para cambiar eso usas i
 numero = int(input("Escribe un número: "))
 numero = float(input("Escribe un número: "))
 ```
+### if / elif / else
+if significa una condicion , se tiene que cumplir la funcion es como decir al programa que si se cumple una cosa haz esto...
+elif siginifica lo mismo que if pero se usa cuando no se sumple la funcion if para a la otra funcion que seria elif
+else es la misma condicion pero se usa como respaldo si no se cumple las funciones if y elif 
+```python
+edad = 10
+if edad >= 18:
+  print("Eres mayor de edad")
+elif edad >= 13:
+  print("Eres adolescente")
+else:
+  print("Eres un niño")
+```
 
+### Operadores de comparación en Python
+
+Los operadores de comparación se utilizan para comparar valores y devuelven un resultado booleano: `True` o `False`.  
+Son esenciales para tomar decisiones con estructuras como `if`, `elif` y `else`.
+
+| Operador | Significado           | Ejemplo   | Resultado |
+|----------|------------------------|-----------|-----------|
+| `==`     | Igual a                | `5 == 5`  | `True`    |
+| `!=`     | Distinto de            | `5 != 3`  | `True`    |
+| `>`      | Mayor que              | `7 > 3`   | `True`    |
+| `<`      | Menor que              | `2 < 1`   | `False`   |
+| `>=`     | Mayor o igual que      | `5 >= 5`  | `True`    |
+| `<=`     | Menor o igual que      | `4 <= 3`  | `False`   |
