@@ -14,3 +14,25 @@ if entered_password == user_password:  # Compare stored password with entered on
     print("Access granted!")  # If they match, access is granted
 else:
     print("Access denied!")  # If they don't match, access is denied
+```
+If you want your password to be hidden while typing, you can use the built-in Python module `getpass`.
+This allows the user to type a password without showing it on the screen — ideal for sensitive data.
+This is optional. You don’t need to use it yet, but if you want to test it, here’s how.
+Later on, I’ll explain how modules and libraries work in Python.
+
+## Version using getpass:
+```python
+import getpass  # Module to hide password input
+
+print("\nUser Access")
+
+user_password = getpass.getpass("Create a password: ")  # Input hidden
+print("Password saved successfully!")
+
+entered_password = getpass.getpass("Enter your password: ")  # Hidden again
+
+if entered_password == user_password:
+    print("Access granted!")
+else:
+    print("Access denied!")
+```
