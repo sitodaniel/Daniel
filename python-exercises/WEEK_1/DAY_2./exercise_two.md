@@ -16,7 +16,7 @@ else:  # If it's not zero or positive, it must be negative
     print(f"The number {number_user} is negative.")
 ```
 
-## Explanation in English: What is \n?
+## What is \n?
 
 `\n` is a **special character** in Python that represents a **line break**.
 It tells Python: “Start writing on the next line.”
