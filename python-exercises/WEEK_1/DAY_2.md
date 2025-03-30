@@ -65,14 +65,14 @@ else:
 Comparison operators are used to compare values and return a Boolean result: `True` or `False`. 
 They are essential when using `if`, `elif` y `else`.
 
-| Operator | Meaning           | Example   | Result |
+| Operator | Meaning                | Example   | Result    |
 |----------|------------------------|-----------|-----------|
-| `==`     | Equal to                | `5 == 5`  | `True`    |
-| `!=`     | Not equal to            | `5 != 3`  | `True`    |
-| `>`      | Greater than              | `7 > 3`   | `True`    |
+| `==`     | Equal to               | `5 == 5`  | `True`    |
+| `!=`     | Not equal to           | `5 != 3`  | `True`    |
+| `>`      | Greater than           | `7 > 3`   | `True`    |
 | `<`      | Less than              | `2 < 1`   | `False`   |
-| `>=`     | Greater or equal to      | `5 >= 5`  | `True`    |
-| `<=`     | Less or equal to     | `4 <= 3`  | `False`   |
+| `>=`     | Greater or equal to    | `5 >= 5`  | `True`    |
+| `<=`     | Less or equal to       | `4 <= 3`  | `False`   |
 
 ## ¿Qué es un bloque de código?
 
